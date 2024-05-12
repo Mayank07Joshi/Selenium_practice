@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+    <test name="Regression Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Homepage.Add_remove_test"/>
+            <!-- Add more test classes as needed -->
+            <!--<class name="tests.TestClass2"/>-->
+            <!--<class name="tests.TestClass3"/>-->
+        </classes>
+    </test>
+</suite>
